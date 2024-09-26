@@ -24,14 +24,14 @@ Welcome to the **Vsodev Tech** Onboarding & Development Guide! This document cov
 
 ## Table of Contents 📖
 
-- [Tools You Will Need](#tools-you-will-need)
-- [Code Structure](#code-structure)
-- [Development Protocols](#development-protocols)
-- [Coding Guide](#coding-guide)
-- [Branching & Version Control](#branching--version-control)
-- [Testing & Debugging](#testing--debugging)
-- [Communication Guidelines](#communication-guidelines)
-- [Best Practices](#best-practices)
+- [Tools You Will Need](#tools-you-will-need-🪛)
+- [Code Structure](#code-structure-👷)
+- [Development Protocols](#development-protocols-📓)
+- [Coding Guide](#coding-guide-💡)
+- [Branching & Version Control](#branching-amp-version-control-🌲)
+- [Testing & Debugging](#testing-and-debugging-using-jest-🧪)
+- [Communication Guidelines](#communication-guidelines-💬)
+- [Best Practices](#best-practices-ℹ%ef%b8%8f)
 
 ---
 
@@ -163,7 +163,6 @@ Files should always be separated for cleaner and well-documented codebase; you c
 Interfaces define the structure of objects in TypeScript. They are crucial for ensuring that objects adhere to a specific shape, improving type safety and code reliability. Grouping related interfaces in one file can enhance readability and provide clear context for their usage.
 
 ```typescript
-
 export interface Counter {
   initialCount?: number;
 }
@@ -174,7 +173,6 @@ export interface Counter {
 Type declarations define the types that can be used in your application. This includes primitive types, union types, and object shapes. Keeping type declarations organized helps maintain clarity, especially when types evolve or expand.
 
 ```typescript
-
 export type ButtonProps = {
   label: string;
   onClick: (e: event) => void;

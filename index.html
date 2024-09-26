@@ -7,18 +7,119 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <style>
+    body.light-mode {
+      background-color: #ffffff;
+      color: #000000;
+    }
+    body.dark-mode {
+      background-color: #000;
+      color: #ffffff;
+    }
+    body.dark-mode .markdown-section a {
+      color: #80e0a0; /* Dark mode link color */
+    }
+    body.dark-mode .anchor span {
+    color: #80e0a0;
+    }
+    body.dark-mode .markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section strong {
+    color: skyblue;
+    font-weight: 600;
+    }
+    body.dark-mode .markdown-section code {
+    border-radius: 2px;
+    color: #fff;
+    margin: 0 2px;
+    padding: 3px 5px;
+    white-space: pre-wrap;
+    } 
+
+    body.dark-mode .markdown-section code, .markdown-section pre {
+    background-color: #111111;
+    border-radius: 10px;
+    }
+    body.light-mode .markdown-section code, .markdown-section pre {
+    background-color: #111;
+    border-radius: 10px;
+    }
+    body.dark-mode .markdown-section pre>code {
+        color: #fff;
+        font-size: .8rem;
+        padding: 0px;
+        padding-top: 15px;
+        padding-bottom: 20px;
+        line-height: inherit;
+        margin: 0 2px;
+        max-width: inherit;
+        overflow: inherit;
+        white-space: inherit;
+    }
+    body.light-mode .markdown-section pre>code {
+        color: #fff;
+        font-size: .8rem;
+        padding: 0px;
+        padding-top: 15px;
+        padding-bottom: 20px;
+        line-height: inherit;
+        margin: 0 2px;
+        max-width: inherit;
+        overflow: inherit;
+        white-space: inherit;
+    }
+    .markdown-section code {
+    border-radius: 2px;
+    color: #fff;
+    margin: 0 2px;
+    padding: 3px 5px;
+    white-space: pre-wrap;
+}
+    /* Button styles */
+    #toggle-theme {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      background-color: #4caf50; /* Green color */
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s, transform 0.3s;
+    }
+
+    #toggle-theme:hover {
+      background-color: #45a049; /* Darker green on hover */
+      transform: scale(1.05);
+    }
+  </style>
 </head>
-<body>
-  <div id="app">
-    <div style="text-align: center; padding: 10px;">
-      <img src="./432854119_383308734588405_5113551841075307366_n.jpg" alt="Logo" style="max-width: 150px;">
-    </div>
-  </div>
+<body class="light-mode">
+  <div id="app"></div>
+
+  <button id="toggle-theme">Light/Dark Mode</button>
+
   <script>
     window.$docsify = {
       name: 'VSODEV TECH',
       repo: ''
+    };
+
+    // Check for saved theme preference
+    const currentTheme = localStorage.getItem('theme');
+    if (currentTheme) {
+      document.body.classList.toggle('dark-mode', currentTheme === 'dark');
+      document.body.classList.toggle('light-mode', currentTheme === 'light');
     }
+
+    // Sync button with the current theme
+    document.getElementById('toggle-theme').addEventListener('click', () => {
+      const isDarkMode = document.body.classList.toggle('dark-mode');
+      document.body.classList.toggle('light-mode', !isDarkMode);
+
+      // Save preference to local storage
+      localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+    });
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
