@@ -338,11 +338,13 @@ Effective communication is key to a successful workflow. We use the following to
 
 ## 1. Tools for Communication
 
-- **[Trello](https://trello.com/)**: Use Trello for task management and tracking project progress. Create boards for different projects and use cards to manage tasks. Ensure to update the status of tasks regularly.
+### Make sure to have:
 
-- **[Zoho Mail](https://mail.zoho.com/)**: Use Zoho Mail for official communication. Make sure to check your email frequently and respond to messages promptly.
+- **[Trello](https://trello.com/)**: We use Trello for task management and tracking project progress. Boards are created for different projects, and cards are used to manage tasks. Ensure to update the status of tasks regularly
 
-- **[Discord](https://discord.com/)**: Use Discord for real-time communication. It’s useful for team discussions, quick updates, and casual conversations. Create channels for different topics or projects to keep discussions organized.
+- **[Zoho Mail](https://mail.zoho.com/)**: We utilize Zoho Mail for official communication. Make sure to check your email frequently and respond to messages promptly.
+
+- **[Discord](https://discord.com/)**: We use Discord for real-time communication. It’s useful for team discussions, quick updates, and casual conversations. Channels are created for different topics or projects to keep discussions organized.
 
 ## 2. Communication Etiquette
 
