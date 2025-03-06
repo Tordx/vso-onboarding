@@ -91,7 +91,7 @@ custom icons must always be inside the folder of where it is used.
 
 # Development Protocols 📓
 
-HAPPYLUCK1. Project Setup
+## 1. Project Setup
 - Use TypeScript for all projects to ensure type safety and improved code quality.
 - Structure projects following the organized file structure outlined above.
 - Use a monorepo approach (if applicable) for managing multiple related projects with tools like Yarn Workspaces or Lerna.
@@ -375,7 +375,7 @@ By adhering to these communication guidelines and best practices, we can ensure 
 
 # Trello Ticket Guide 
 
-## Adding New Ticket
+**Adding New Ticket**
 
   - Card Placement: Ensure the card is in the correct list.
   - Team Assignment: Determine which team should handle the ticket.
@@ -383,7 +383,7 @@ By adhering to these communication guidelines and best practices, we can ensure 
   - Backend Check: Verify the backend returns the correct data.
   - Data Check: Ensure the data is not hardcoded.
 
-### 1. Title
+## 1. Title
 
   - Be Clear & Concise: Add a precise, short title for quick understanding.
   - Categories: 
@@ -391,43 +391,43 @@ By adhering to these communication guidelines and best practices, we can ensure 
     - `Screen:` can be a child of a sprint, can contain multiple features but sprint.
     - `Feature:` Can have no parent if it's the only feature of the screen. Should not have a child.
 
-### 2. Add Labels
+## 2. Add Labels
 
   - `Priority` Level: Specify the priority of the task.
   - `Team` Assignment: Add the team responsible for the task.
   - `Member` Assignment: Assign a specific team member to handle the card.
 
-### 3. Add Description
+## 3. Add Description
 
   - Header Title: The main task or concern of the ticket.
   - Body: An extended description, often in list form.
   - Image/Video: If it's UI-related, an image is necessary. For functionality, include a video or gif to demonstrate.
 
-### 4. Acceptance Criteria
+## 4. Acceptance Criteria
 
   - Conditions for Completion: Clearly define measurable and objective criteria that must be met for the ticket to be considered complete.
 
-### 5. Steps to Reproduce (for bugs/issues)
+## 5. Steps to Reproduce (for bugs/issues)
 
   - Reproduction Steps: List a clear process to reproduce the issue, including the environment (e.g., web, mobile, API), version, and configurations.
 
-### 6. Expected vs. Actual Results (for bugs/issues)
+## 6. Expected vs. Actual Results (for bugs/issues)
 
   - Expected Result: Describe the intended behavior.
   - Actual Result: Describe what happens instead.
 
-### 7. Add Due Dates
+## 7. Add Due Dates
 
   - Realistic Due Date: Set an achievable due date aligned with sprint timelines or project deadlines.
 
-### 8. Checklist (optional)
+## 8. Checklist (optional)
 
   - Task List: Include a checklist to track progress on multiple tasks within the ticket (e.g., “Test on iOS,” “Check cross-browser functionality”).
 
-### 9. Links (optional but highly recommended)
+## 9. Links (optional but highly recommended)
 
   - Link Related Tickets: Attach relevant tickets if dependencies or references are necessary.
 
-### 10. Attachments (optional)
+## 10. Attachments (optional)
 
   - Additional Files: Attach any documents, images, or videos that help clarify or support the ticket.
