@@ -1,24 +1,9 @@
-<img src="./vso_processed.png" alt="VSODEV Tech Logo" style="max-width: 250px;">
+<img src="./happy-luck.png" alt="hl-logo" style="max-width: 250px;">
 
-# WELCOME
-
-Welcome to **Vsodev Tech**! We are a dynamic startup specializing in Software Development and IT Consultancy, proudly based in the Philippines. Our team is composed of passionate software engineers dedicated to transforming the world through innovative technology solutions. We aim to provide exceptional services tailored to meet the diverse needs of businesses, from small startups to large enterprises.
-
-### Mission
-To empower businesses by delivering cutting-edge software solutions and expert consultancy services that drive growth, efficiency, and innovation.
-
-### Vision
-To be a leading technology partner recognized for our commitment to excellence, creativity, and the positive impact we create in the communities we serve.
-
-Together, let’s build a better future through technology!
-
----
----
----
 
 # ONBOARDING & DEVELOPMENT GUIDE
 
-Welcome to the **Vsodev Tech** Onboarding & Development Guide! This document covers the tools, setup instructions, code structure, development protocols, and everything you need to know to get started.
+Welcome to the **Happy Luck** Onboarding & Development Guide! This document covers the tools, setup instructions, code structure, development protocols, and everything you need to know to get started.
 
 ---
 
@@ -50,11 +35,11 @@ Before you start working on our project, ensure that you have the following tool
       - Prettier
       - GitLens
 5. **[Postman](https://www.postman.com/)**: For testing APIs.
-6. **[Docker](https://www.docker.com/)**: (We're not using it yet) Used for containerizing the project in some setups.
+6. ~~**[Docker](https://www.docker.com/)**: (We're not using it yet) Used for containerizing the project in some setups.~~
 7. **[Figma](https://www.figma.com/)**: For accessing design files and collaborating on UI/UX discussions.
-8. **[Discord](https://discord.com/)**: For team communication. Our project uses Discord for real-time chats and discussions. Make sure you join the team server.
+8. ~~**[Discord](https://discord.com/)**: For team communication. Our project uses Discord for real-time chats and discussions. Make sure you join the team server.~~
 9. **[Trello](https://trello.com/)**: For project and task management. We use Trello to organize tasks, track progress, and ensure everyone is on the same page.
-10. **[Zoho](https://mail.zoho.com)**: For email communication. This will be your primary email for project-related accounts and communications.
+10. ~~**[Zoho](https://mail.zoho.com)**: For email communication. This will be your primary email for project-related accounts and communications.~~
 11. **[GitHub](https://github.com/)**: For version control and collaboration. We use GitHub to host our repositories, manage code changes, and collaborate on project development.
 
 
@@ -66,33 +51,42 @@ Our codebase is organized to ensure scalability and maintainability. Below is an
 
 ```bash
 ├── src
-├── ├── assets          # Your libraries or utilities
+├── ├── assets             # Your libraries or utilities
 ├── │   ├── images
 ├── ├── ├── colors
 ├── ├── └── fonts
+│   │
 │   ├── libraries          # Your libraries or utilities
-│   │   ├── redux          # Redux related logic
-│   │   │   ├── actions    # Action creators
-│   │   │   ├── reducers   # Reducers
-│   │   │   ├── store.tsx   # Redux store configuration
-│   │   │   └── types.tsx   # Type definitions for actions and state
-│   │   ├── other-library   # Other libraries
+│   │   ├── other-library  # Other libraries
 │   │   ├── api            # API calls and services
 │   │   └── utils          # Utility functions
+│   │
 │   ├── components         # React components
 │   │   ├── common         # Common/shared components
 │   │   └── specific       # Specific components
+│   │
 │   ├── contexts           # React Contexts
-│   │   └── ReduxContext.tsx # Context for accessing Redux state
+│   │   └── redux              # Redux related logic
+│   │       ├── actions    # Action creators
+│   │       ├── reducers   # Reducers
+│   │       ├── store      # Redux store configuration
+│   │       └── types      # Type definitions for actions and state
+│   │
+│   ├── routes
+│   │   ├── stacks
+│   │   └── tabs
+│   │
 │   ├── screens            # Application screens
 │   │   ├── Auth           # Authentication screens
 │   │   ├── Dashboard      # Dashboard screens
 │   │   └── Settings       # Settings screens
+│   │
 │   ├── styles             # Global styles or theme files
-│   └── App.tsx             # Main application entry point
+│
+├── App.tsx                # Main application entry point
 ```
-In context, the structure should be the same for all(Web Portal, APIs, and Apps)
-
+In context, the structure should be the same for all App Project
+custom icons must always be inside the folder of where it is used.
 ---
 
 # Development Protocols 📓
@@ -126,16 +120,16 @@ Maintaining high code quality is **crucial** for ensuring the long-term success 
 - Use **React Testing Library** for testing React components.
 - Maintain a code coverage threshold (e.g., 80% coverage).
 
-## 5. Documentation (*Upcoming Implementation*)
-- Use tools like **Docsify** or **Storybook** for documenting components and APIs.
-- Maintain inline comments and documentation in code for complex logic.
-- Write comprehensive README files for each project/module.
+## 5. ~~Documentation (*Upcoming Implementation*)~~
+- ~~Use tools like **Docsify** or **Storybook** for documenting components and APIs.~~
+- ~~Maintain inline comments and documentation in code for complex logic.~~
+- ~~Write comprehensive README files for each project/module.~~
 
 ## 6. API Design
-- Follow RESTful API principles for Node.js backends.
-- Use **TypeScript interfaces** to define request and response structures.
-- Implement error handling and logging for API requests.
-- Use tools like **Postman** for API testing and documentation.
+- ~~Follow RESTful API principles for Node.js backends.~~
+- ~~Use **TypeScript interfaces** to define request and response structures.~~
+- ~~Implement error handling and logging for API requests.~~
+- ~~Use tools like **Postman** for API testing and documentation.~~
 
 ## 7. Component Design
 - Use **React functional components** with hooks wherever possible.
