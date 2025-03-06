@@ -372,3 +372,62 @@ Following best practices in development ensures high-quality code and efficient 
 - **Conduct Code Reviews**: Regularly review each other's code to maintain quality and share knowledge among the team. Use pull requests for code submissions.
 
 By adhering to these communication guidelines and best practices, we can ensure a productive and positive work environment.
+
+## Trello Ticket Guide 
+
+### Adding New Ticket
+
+  - Card Placement: Ensure the card is in the correct list.
+  - Team Assignment: Determine which team should handle the ticket.
+  - Testing: Test the App/web/API properly using tools like Dev Tools, Postman, logs, etc.
+  - Backend Check: Verify the backend returns the correct data.
+  - Data Check: Ensure the data is not hardcoded.
+
+1. **Title**
+
+    - Be Clear & Concise: Add a precise, short title for quick understanding.
+    - Categories: 
+      - `Sprint:` Must only be a parent ticket and only contain screens.
+      - `Screen:` can be a child of a sprint, can contain multiple features but sprint.
+      - `Feature:` Can have no parent if it's the only feature of the screen. Should not have a child.
+
+2. **Add Labels**
+
+    - `Priority` Level: Specify the priority of the task.
+    - `Team` Assignment: Add the team responsible for the task.
+    - `Member` Assignment: Assign a specific team member to handle the card.
+
+3. **Add Description**
+
+    - Header Title: The main task or concern of the ticket.
+    - Body: An extended description, often in list form.
+    - Image/Video: If it's UI-related, an image is necessary. For functionality, include a video or gif to demonstrate.
+
+4. **Acceptance Criteria**
+
+    - Conditions for Completion: Clearly define measurable and objective criteria that must be met for the ticket to be considered complete.
+
+5. **Steps to Reproduce (for bugs/issues)**
+
+    - Reproduction Steps: List a clear process to reproduce the issue, including the environment (e.g., web, mobile, API), version, and configurations.
+
+6. **Expected vs. Actual Results (for bugs/issues)**
+
+    - Expected Result: Describe the intended behavior.
+    - Actual Result: Describe what happens instead.
+
+7. **Add Due Dates**
+
+    - Realistic Due Date: Set an achievable due date aligned with sprint timelines or project deadlines.
+
+8. **Checklist (optional)**
+
+    - Task List: Include a checklist to track progress on multiple tasks within the ticket (e.g., “Test on iOS,” “Check cross-browser functionality”).
+
+9. **Links (optional but highly recommended)**
+
+    - Link Related Tickets: Attach relevant tickets if dependencies or references are necessary.
+
+10. **Attachments (optional)**
+
+    - Additional Files: Attach any documents, images, or videos that help clarify or support the ticket.
