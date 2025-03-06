@@ -1,7 +1,7 @@
 <img src="./happy-luck.png" alt="hl-logo" style="max-width: 250px;">
 
 
-# ONBOARDING & DEVELOPMENT GUIDE
+# ONBOARDING & APP DEVELOPMENT GUIDE
 
 Welcome to the **Happy Luck** Onboarding & Development Guide! This document covers the tools, setup instructions, code structure, development protocols, and everything you need to know to get started.
 
