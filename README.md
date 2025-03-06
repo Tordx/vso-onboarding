@@ -17,7 +17,7 @@ Welcome to the **Happy Luck** Onboarding & Development Guide! This document cove
 - [Testing & Debugging](#testing-and-debugging-using-jest-🧪)
 - [Communication Guidelines](#communication-guidelines-💬)
 - [Best Practices](#best-practices-ℹ%ef%b8%8f)
-
+- [Trello Ticket Guide](#trello-ticket-guide)
 ---
 
 ## Tools You Will Need 🪛
